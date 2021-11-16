@@ -1,0 +1,19 @@
+{
+  "name": "express-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "all": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "vue": "cd client && npm install",
+    "express": "cd server && npm install",
+    "install": "npm run vue && npm run express",
+    "runserver": "cd server && npm run start",
+    "runvue": "cd client && npm run serve"
+  },
+  "author": "",
+  "license": "ISC"
+}
